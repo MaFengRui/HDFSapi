@@ -9,6 +9,7 @@ public class HdfsTest {
          fileSystem = FileSystem.newInstance(con);
 
          fileSystem.mkdirs(new Path("/dd"));
+         System.out.print(3);
          fileSystem.close();
      }
 
