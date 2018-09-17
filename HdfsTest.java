@@ -1,10 +1,13 @@
+
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;
-import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IOUtils;
 
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.FileOutputStream;
+import java.io.FileSytem;
+import java.io.IOException;
 
 /**
  * hdfs的简单操作
